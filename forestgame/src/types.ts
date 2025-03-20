@@ -4,8 +4,11 @@ import { AnyActorRef } from "xstate";
 export interface DMContext {
   spstRef: AnyActorRef;
   lastResult: nluResponse | null;
-  time?: string | null;
-
+  berries?: boolean | null;
+  dreamMedeina?: boolean | null;
+  dreamLeshy?: boolean | null;
+  eaten?: boolean | null;
+  fire?: boolean | null;
 }
 
 export interface nluResponse {
