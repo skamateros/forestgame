@@ -5,8 +5,8 @@ export interface DMContext {
   spstRef: AnyActorRef;
   lastResult: nluResponse | null;
   berries?: boolean | null;
-  dreamMedeina?: boolean | null;
-  dreamLeshy?: boolean | null;
+  choiceMedeina?: boolean | null;
+  choiceLeshy?: boolean | null;
   eaten?: boolean | null;
   fire?: boolean | null;
 }
