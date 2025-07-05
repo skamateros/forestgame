@@ -1,6 +1,6 @@
 # Forest Game
 
-Dialogue-based game written in TypeScript using Microsoft Azure NLU and XState for dialogue management.
+Dialogue-based game written in TypeScript using Microsoft Azure NLU and XState for dialogue management, developed as part of LT2816 - Dialogue Systems at Gothenburg University.
 
 ## Features
 - Natural language understanding via Azure Cognitive Services
